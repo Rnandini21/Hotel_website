@@ -1,0 +1,111 @@
+.formName{
+    margin: 2%;
+}
+
+.newOne{
+    margin-bottom: -3%
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 100px;
+    margin: 0 108px;
+}
+
+.contactform h1 {
+    font-family: 'Bitter', serif;
+    margin-bottom: 20px;
+}
+
+.contactform form{
+    margin: 0 20px;
+}
+
+.contactform form div {
+    padding: 10px 0;
+}
+
+.contactform form div .form-control {
+    margin-top: 5px;
+}
+
+.contactform form div.mb-3 {
+    display: flex;
+    flex-direction: column;
+    /* width: 20vw; */
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+.form-check-input {
+    width: 15px;
+    margin: 3px 0;
+}
+
+.contactform form div input.form-control {
+    border-radius: 5px;
+    padding: 2px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 0 0;
+}
+
+.btn {
+    padding: 4px 10px;
+    border-radius: 20px;
+    color: navajowhite;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: rgb(12, 63, 63);
+    background-color: cadetblue;
+}
+
+.fots{
+    margin-top: 50px;
+}
+
+.icons{
+    display: block;
+    margin-right: 50px;
+
+}
+
+.icons img{
+    height:20px;
+    padding:0 15px;
+    float: right;
+    cursor: pointer;
+}
+
+/* .facebook{
+    display: fl;
+} */
+
+
+
+@media (max-width: 1351px) {
+
+    .contactform{
+        margin: 8px;
+    }
+    #form-check {
+        flex-direction: row;
+    }
+    
+    .form-check-input {
+        width: 24px;
+        margin: 8px 5px;
+    }
+}

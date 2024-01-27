@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500&display=swap');
+
+/*Navbar   ==    font-family: 'Phudu', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Extra  ===       font-family: 'Lobster', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@200;300;400&display=swap');
+
+
+/*  h1  ===   font-family: 'Mukta Malar', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav{
+    background-color: blueviolet;
+} */
+
+.headUl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headUl li{
+    list-style: none;
+    margin-top: 8vh;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Phudu', cursive;
+    cursor: pointer;
+    font-weight: 600;
+    color: rgba(32, 10, 80, 0.674);
+}
+
+.headUl li a{
+    text-decoration: none;
+    color: rgba(32, 10, 80, 0.674);
+}
+
+.headUl li:hover{
+    color: rgba(246, 54, 20, 0.455);
+    font-weight: 400;
+}
+
+img.StartImg{
+    width: 100%;
+    height: 80vh;
+}
+
+.StartDiv h1{
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#ff7200,rgba(0,0,0,0.8)50%); */
+    margin-bottom: 3vh;
+    font-family: 'Mukta Malar', sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.HeadFirstName{
+    color: orange;
+}
+
+.HeadSecondName{
+    color: rgba(12, 12, 12, .5);
+}
+
+.AboutHotel{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10vh;
+    margin-top: 7vh;
+    font-family: 'Mukta Malar', sans-serif;
+    color: rgba(188, 0, 0, 0.572);
+}
+
+.InfoContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    /* align-items: center; */
+    justify-items: center;
+    grid-row-gap: 1rem;
+}
+
+.InfoContainer img{
+    width: 50%;
+    border: 12px solid gray;
+    border-radius: 12px;
+    /* height: 25%; */
+    cursor: pointer;
+}
+
+.InfoContainer img:hover{
+    position: static;
+    width: 60%;
+}
+
+
+.Welcome h1{
+    display: flex;
+    justify-content: center;
+    /* background: linear-gradient(#ff7200,rgba(0,0,0,0.8)50%); */
+    font-family: 'Mukta Malar', sans-serif;
+}
+
+.Welcome{
+    margin-top: 12vh;
+}
+
+.FirstWord{
+    color: rgba(188, 0, 0, 0.572);
+}
+
+div.para{
+    color: brown;
+    font-size: large;
+    font-family: 'Mukta Malar', sans-serif;
+    margin: 8%;
+    text-shadow: 1px 1px darkblue;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    color:firebrick;
+    padding: 30px;
+    background-color: rgba(85, 51, 116, 0.6);
+}
